@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import sys
 from pathlib import Path
 dados = Path(sys.argv[1])
+salvar = Path("output")
 arquivos = list(dados.glob("*.csv"))
 dfs = []
 for a in arquivos:
@@ -38,7 +39,7 @@ plt.xticks(rotation=45)
 plt.xlabel("Produto")
 plt.ylabel("Quantidade")
 plt.title("Vendas por Produto")
-plt.savefig(f"{dados}/grafico_vendas_produto.png")
+plt.savefig(f"{salvar}/grafico_vendas_produto.png")
 plt.show()
 x = df10.index
 y = df10.values
@@ -61,7 +62,7 @@ plt.xticks(rotation=45)
 plt.xlabel("Produto")
 plt.ylabel("Quantidade")
 plt.title("Vendas por Categoria")
-plt.savefig(f"{dados}/grafico_vendas_categoria.png")
+plt.savefig(f"{salvar}/grafico_vendas_categoria.png")
 plt.show()
 x = df11.index
 y = df11.values
@@ -84,6 +85,6 @@ plt.xticks(rotation=45)
 plt.xlabel("Produto")
 plt.ylabel("Quantidade")
 plt.title("Faturamento por Dia")
-plt.savefig(f"{dados}/grafico_faturamentos_dia.png")
+plt.savefig(f"{salvar}/grafico_faturamentos_dia.png")
 plt.show()
-df.to_csv(f"{dados}/dados_consolidados.csv", index=False)
+df.to_csv(f"{salvar}/dados_consolidados.csv", index=False)
