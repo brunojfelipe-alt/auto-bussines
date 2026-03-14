@@ -56,7 +56,7 @@ auto_business
 1. Clone o repositório
 
 ```
-git clone https://github.com/brunojfelipe-alt/auto-business.git
+https://github.com/brunojfelipe-alt/auto-bussines.git
 ```
 
 2. Entre na pasta do projeto
