@@ -1,0 +1,31 @@
+data,produto,categoria,preco,quantidade,faturamento
+2026-01-01,teclado mecanico,Perifericos,350,1,350
+2026-01-01,mousegamer,Perifericos,120,1,120
+2026-01-01,teclado mecanico,Perifericos,350,1,350
+2026-01-01,monitor 24,Monitores,900,1,900
+2026-01-01,webcam hd,Perifericos,200,1,200
+2026-01-01,monitor 24,Monitores,900,1,900
+2026-01-01,mousegamer,Perifericos,120,1,120
+2026-01-01,webcam hd,Perifericos,200,1,200
+2026-01-02,monitor 24,Monitores,900,1,900
+2026-01-02,mouse gamer,Perifericos,120,2,240
+2026-01-02,mouse gamer,Perifericos,120,1,120
+2026-01-02,mouse gamer,Perifericos,120,2,240
+2026-01-02,monitor 24,Monitores,900,1,900
+2026-01-02,mouse gamer,Perifericos,120,2,240
+2026-01-02,mouse gamer,Perifericos,120,1,120
+2026-01-02,mouse gamer,Perifericos,120,2,240
+2026-01-03,mouse gamer,Perifericos,120,3,360
+2026-01-03,webcam hd,Perifericos,200,1,200
+2026-01-03,mouse gamer,Perifericos,120,3,360
+2026-01-03,monitor 24,Monitores,900,1,900
+2026-01-03,monitor 24,Monitores,900,1,900
+2026-01-03,webcam hd,Perifericos,200,1,200
+2026-01-04,teclado mecanico,Perifericos,350,2,700
+2026-01-04,mouse gamer,Perifericos,120,2,240
+2026-01-04,teclado mecanico,Perifericos,350,1,350
+2026-01-04,teclado mecanico,Perifericos,350,1,350
+2026-01-04,teclado mecanico,Perifericos,350,2,700
+2026-01-04,webcam hd,Perifericos,200,2,400
+2026-01-04,webcam hd,Perifericos,200,2,400
+2026-01-04,mouse gamer,Perifericos,120,2,240
